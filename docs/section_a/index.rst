@@ -1,5 +1,5 @@
-Section A
-*********
+Publications
+************
 
 This is the section A
 

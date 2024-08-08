@@ -14,7 +14,7 @@ path_str = str(Path(__file__).parent.parent)
 
 # -- Project information
 
-project = 'MyProject'
+project = 'Juan Jose Quiroz Omana'
 copyright = str(datetime.date.today().year)+' Juan Jose Quiroz Omana'
 author = 'Juan Jose Quiroz Omana'
 
@@ -56,8 +56,8 @@ html_theme = "pydata_sphinx_theme"
 html_static_path = ['_static']
 html_css_files = ["custom.css"]
 
-html_logo = "./_static/logo.png"
-html_favicon = "./_static/logo.png"
+#html_logo = "./_static/logo.png"
+#html_favicon = "./_static/logo.png"
 
 
 language = "en"
@@ -88,22 +88,23 @@ html_theme_options = {
             "icon": "fa-brands fa-github",
         },
 
-        {
-            "name": "MyLogo",
-            "url": "https://github.com/juanjqo/pydata-sphinx-theme-template",
-            "icon": "https://raw.githubusercontent.com/juanjqo/pydata-sphinx-theme-template/main/docs/_static/logo.svg",
-            "type": "local",
-            "attributes": {"target": "_blank"},
-        },
+        #{
+        #    "name": "MyLogo",
+        #    "url": "https://github.com/juanjqo/pydata-sphinx-theme-template",
+        #    "icon": "https://raw.githubusercontent.com/juanjqo/pydata-sphinx-theme-template/main/docs/_static/logo.svg",
+        #    "type": "local",
+        #    "attributes": {"target": "_blank"},
+        #},
     ],
     # alternative way to set twitter and github header icons
     # "github_url": "https://github.com/pydata/pydata-sphinx-theme",
     # "twitter_url": "https://twitter.com/PyData",
-    "logo": {
-        "text": "Home",
-        "image_dark": "./_static/logodark.svg",
-        "alt_text": "MyProject",
-    },
+    #"logo": {
+    #    "text": "Juan José Quiroz Omaña, PhD",
+    #    "image_dark": "./_static/logodark.svg",
+    #    "alt_text": "MyProject",
+    #},
+
     "use_edit_page_button": False,
     "show_toc_level": 1,
     "navbar_align": "left",  # [left, content, right] For testing that the navbar items align properly
