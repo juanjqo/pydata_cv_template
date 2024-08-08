@@ -113,7 +113,7 @@ html_theme_options = {
     # "navbar_start": ["navbar-logo"],
     # "navbar_end": ["theme-switcher", "navbar-icon-links"],
     # "navbar_persistent": ["search-button"],
-    #"primary_sidebar_end": ["custom-template.html", "sidebar-ethical-ads.html"],
+    # "primary_sidebar_end": ["custom-template.html", "sidebar-ethical-ads.html"],
     # "article_footer_items": ["test.html", "test.html"],
     # "content_footer_items": ["test.html", "test.html"],
     # "footer_start": ["test.html", "test.html"],
@@ -124,8 +124,8 @@ html_theme_options = {
 }
 
 html_sidebars = {
-    "**": ["sidebar-nav-bs", "sidebar-ethical-ads"],
-    "index": [],
+    "**": ["test.html", "sidebar-nav-bs", "sidebar-ethical-ads"],
+    "index": ["test.html"],
 }
 
 # -- Options for EPUB output
