@@ -124,7 +124,7 @@ html_theme_options = {
 }
 
 html_sidebars = {
-    "**": ["test.html", "sidebar-nav-bs", "sidebar-ethical-ads"],
+    "**": ["test.html"], #"sidebar-nav-bs", "sidebar-ethical-ads"
     "index": ["test.html"],
 }
 
