@@ -57,7 +57,7 @@ html_static_path = ['_static']
 html_css_files = ["custom.css"]
 
 #html_logo = "./_static/logo.png"
-#html_favicon = "./_static/logo.png"
+html_favicon = "./_static/manipulator.png"
 
 
 language = "en"
@@ -115,9 +115,9 @@ html_theme_options = {
     # "navbar_end": ["theme-switcher", "navbar-icon-links"],
     # "navbar_persistent": ["search-button"],
     # "primary_sidebar_end": ["custom-template.html", "sidebar-ethical-ads.html"],
-    # "article_footer_items": ["test.html", "test.html"],
-    # "content_footer_items": ["test.html", "test.html"],
-    # "footer_start": ["test.html", "test.html"],
+    # "article_footer_items": ["summary_left_sidebar.html", "summary_left_sidebar.html"],
+    # "content_footer_items": ["summary_left_sidebar.html", "summary_left_sidebar.html"],
+    # "footer_start": ["summary_left_sidebar.html", "summary_left_sidebar.html"],
     # "secondary_sidebar_items": ["page-toc.html"],  # Remove the source buttons
 
     #"primary_sidebar_end": ["sidebar-ethical-ads"],
@@ -125,8 +125,8 @@ html_theme_options = {
 }
 
 html_sidebars = {
-    "**": ["test.html"], #"sidebar-nav-bs", "sidebar-ethical-ads"
-    "index": ["test.html"],
+    "**": ["summary_left_sidebar.html"], #"sidebar-nav-bs", "sidebar-ethical-ads"
+    "index": ["summary_left_sidebar.html"],
 }
 
 # -- Options for EPUB output
