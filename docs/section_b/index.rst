@@ -1,7 +1,7 @@
-Section B
-*********
+Random
+******
 
-This is the section B
+
 
 .. toctree::
    :hidden:
